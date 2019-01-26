@@ -1,0 +1,41 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio",
+  "main": "app.js",
+  "scripts": {
+    "build": "webpack -p --env production",
+    "dev-server": "webpack-dev-server"
+  },
+  "author": "Jem Alvarez",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.2.0",
+    "@babel/plugin-proposal-class-properties": "^7.2.1",
+    "@babel/plugin-proposal-object-rest-spread": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-loader": "^8.0.4",
+    "babel-polyfill": "^6.26.0",
+    "css-loader": "^2.0.0",
+    "history": "^4.7.2",
+    "mini-css-extract-plugin": "^0.5.0",
+    "node-sass": "^4.10.0",
+    "normalize.css": "^8.0.1",
+    "react": "^16.6.3",
+    "react-addons-shallow-compare": "^15.6.2",
+    "react-dom": "^16.6.3",
+    "react-icons": "^3.3.0",
+    "react-router-dom": "^4.3.1",
+    "react-scroll": "^1.7.10",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.27.0",
+    "webpack-cli": "^3.1.2"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^3.1.14"
+  }
+}
