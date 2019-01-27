@@ -1,0 +1,123 @@
+nav {
+    position: sticky;
+    left: 0;
+    top: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: $m-size 0;
+    position: relative;
+}
+
+.navbar-border {
+    border-bottom: 1px solid rgba($accent, 0.5);
+}
+
+.navbar__outer {
+    background: $dark-blue;
+    position: relative;
+}
+
+.navbar__icon {
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 15px;
+
+    @media (min-width: $desktop-breakpoint) {
+        display: none;
+    }
+}
+
+.navbar__menu {
+    background: darken($dark-blue, 5%);
+    display: grid;
+    justify-items: center;
+    left: 0;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+
+    & > a {
+        display: block;
+    }
+}
+
+.navbar__links {
+    display: none;
+
+    @media (min-width: $desktop-breakpoint) {
+        display: block;
+    }
+}
+
+.navbar__link {
+    color: $white;
+    margin: $s-size 0;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+    &::after {
+        content: none;
+    }
+
+    @media (min-width: $desktop-breakpoint) {
+        margin: 0 $s-size;
+
+        &::after {
+            border-bottom: 2px $accent solid;
+            bottom: -5px;
+            content: '';
+            left: 0;
+            position: absolute;
+            transition: 0.2s all ease-in-out;
+            width: 0;
+        }
+
+        &:hover {
+            &::after {
+                width: 100%;
+            }
+        }
+    }
+}
+
+.navbar__link-active {
+    color: $accent;
+    font-weight: bold;
+
+    &::after {
+        content: none;
+    }
+
+    @media (min-width: $desktop-breakpoint) {
+        &::after {
+        border-bottom: 2px $accent solid;
+        bottom: -5px;
+        content: '';
+        left: 0;
+        position: absolute;
+        transition: 0.2s all ease-in-out;
+        width: 100%;
+    }
+    }
+}
+
+.navbar__logo {
+    height: 30px;
+    width: 30px;
+
+    & a {
+        display: inline-block;
+    }
+
+    & img {
+        display: block;
+        height: 100%;
+        width: 100%;
+    }
+}
