@@ -21,3 +21,9 @@ button {
 button:disabled {
   cursor: default;
 }
+
+#app-wrapper {
+  min-height: 100vh;
+  padding-bottom: 171px;
+  position: relative;
+}
