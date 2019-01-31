@@ -2,6 +2,7 @@ nav {
     position: sticky;
     left: 0;
     top: 0;
+    z-index: 99;
 }
 
 .navbar {
@@ -61,6 +62,10 @@ nav {
     text-decoration: none;
     text-transform: uppercase;
     
+    &:hover {
+        color: $accent;
+    }
+
     &::after {
         content: none;
     }
