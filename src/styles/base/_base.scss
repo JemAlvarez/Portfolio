@@ -9,7 +9,7 @@ html {
 body {
   background-color: $background;
   color: $white;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: $m-size;
   line-height: 1.6;
 }
@@ -20,6 +20,22 @@ button {
 
 button:disabled {
   cursor: default;
+}
+
+.right-border {
+  border-right: none;
+
+  @media (min-width: $desktop-breakpoint) {
+    border-right: 1px solid $accent;
+  }
+}
+
+.bottom-border {
+  border-bottom: 1px solid $accent;
+
+  @media (min-width: $desktop-breakpoint) {
+    border-bottom: none;
+  }
 }
 
 #app-wrapper {

@@ -17,13 +17,15 @@ class MainPage extends React.Component {
                     <Link className="hero__link" to="/contact">Contact</Link>
                 </div>
                 <div className="me-section">
-                    <div>
-                        <h3>Heading</h3>
-                        <p>Something about me blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah </p>
+                    <div className="me__container right-border bottom-border">
+                        <h3 className="main__heading">About Me</h3>
+                        <p>Something about me blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah. Something about me blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah </p>
                     </div>
-                    <div>
-                        <h3>Heading</h3>
-                        <p>bunch of links with social media</p>
+                    <div className="me__container bottom-border">
+                        <div className="me__social-link"><a href="https://google.com" target="_blank">GH</a></div>
+                        <div className="me__social-link"><a href="https://google.com" target="_blank">FB</a></div>
+                        <div className="me__social-link"><a href="https://google.com" target="_blank">IG</a></div>
+                        <div className="me__social-link"><a href="https://google.com" target="_blank">TW</a></div>
                     </div>
                 </div>
                 {/* 
