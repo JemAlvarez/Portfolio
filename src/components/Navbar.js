@@ -45,7 +45,7 @@ class Navbar extends React.Component {
                     <div className="container">
                         <div className="navbar">
                             <div className="navbar__logo">
-                                <Link to="/"><img src="https://pngimage.net/wp-content/uploads/2018/06/logo-placeholder-png.png" /></Link>
+                                <Link to="/"><img src="/images/logo.png" /></Link>
                             </div>
                             <div className="navbar__links">
                                 <NavLink onClick={() => { this.closeMenu() }} to="/" activeClassName="navbar__link-active" className="navbar__link" exact={true}>home</NavLink>
