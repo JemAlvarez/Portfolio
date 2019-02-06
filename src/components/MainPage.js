@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import Typed from 'typed.js'
+import { FaFacebookF, FaInstagram, FaGithub, FaTwitter, FaLinkedinIn } from 'react-icons/fa'
 
 class MainPage extends React.Component {
     componentDidMount() {
@@ -21,11 +22,12 @@ class MainPage extends React.Component {
                         <h3 className="main__heading">About Me</h3>
                         <p>Something about me blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah. Something about me blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah </p>
                     </div>
-                    <div className="me__container bottom-border">
-                        <div className="me__social-link"><a href="https://google.com" target="_blank">GH</a></div>
-                        <div className="me__social-link"><a href="https://google.com" target="_blank">FB</a></div>
-                        <div className="me__social-link"><a href="https://google.com" target="_blank">IG</a></div>
-                        <div className="me__social-link"><a href="https://google.com" target="_blank">TW</a></div>
+                    <div className="me__container">
+                        <div className="me__social-link"><a href="https://google.com" target="_blank"><FaGithub /></a></div>
+                        <div className="me__social-link"><a href="https://google.com" target="_blank"><FaFacebookF /></a></div>
+                        <div className="me__social-link"><a href="https://google.com" target="_blank"><FaInstagram /></a></div>
+                        <div className="me__social-link"><a href="https://google.com" target="_blank"><FaTwitter /></a></div>
+                        <div className="me__social-link"><a href="https://google.com" target="_blank"><FaLinkedinIn /></a></div>
                     </div>
                 </div>
                 {/* 
@@ -35,18 +37,30 @@ class MainPage extends React.Component {
                         <p>Project card</p>
                     </div>
                 */}
-                <div>
-                    <div>
-                        <h3>Type of skill</h3>
-                        <p>List of skills</p>
+                <div className="skills">
+                    <div className="skills__container right-border bottom-border">
+                        <h3 className="main__heading">Type of skill</h3>
+                        <ul className="skills__list">
+                            <li>Item 1</li>
+                            <li>Item 2</li>
+                            <li>Item 3</li>
+                        </ul>
                     </div>
-                    <div>
-                        <h3>Type of skill</h3>
-                        <p>List of skills</p>
+                    <div className="skills__container right-border bottom-border">
+                        <h3 className="main__heading">Type of skill</h3>
+                        <ul className="skills__list">
+                            <li>Item 4</li>
+                            <li>Item 5</li>
+                            <li>Item 6</li>
+                        </ul>
                     </div>
-                    <div>
-                        <h3>Type of skill</h3>
-                        <p>List of skills</p>
+                    <div className="skills__container">
+                        <h3 className="main__heading">Type of skill</h3>
+                        <ul className="skills__list">
+                            <li>Item 7</li>
+                            <li>Item 8</li>
+                            <li>Item 9</li>
+                        </ul>
                     </div>
                 </div>
             </div>

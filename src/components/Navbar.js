@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
+import { TiThMenu } from 'react-icons/ti'
 
 class Navbar extends React.Component {
     state = {
@@ -22,6 +23,13 @@ class Navbar extends React.Component {
     }
     closeMenu() {
         this.setState(() => ({ open: false }))
+    }
+    toggleIconClass() {
+        if (this.state.open === true) {
+            document.querySelector('.navbar__icon').classList.add('navbar__icon-on')
+        } else {
+            document.querySelector('.navbar__icon').classList.remove('navbar__icon-on')
+        }
     }
     renderNavMenu() {
         if (this.state.open === true) {
@@ -63,10 +71,13 @@ class Navbar extends React.Component {
                                             return { open: false }
                                         }
                                     })
+                                    setTimeout(() => {
+                                        this.toggleIconClass()
+                                    }, 10);
                                 }}
                             >
-                                |||
-                        </span>
+                                <TiThMenu />
+                            </span>
                         </div>
                     </div>
                     {this.renderNavMenu()}

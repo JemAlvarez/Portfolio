@@ -1,5 +1,6 @@
 .footer {
     background: $dark-blue;
+    border-top: 1px solid $accent;
     color: $white;
     bottom: 0;
     left: 0;
@@ -9,8 +10,13 @@
     width: 100%;
 }
 
-.footer_scrollup {
+.footer__scrollup {
     margin: $s-size 0;
+
+    &:hover {
+        color: $accent;
+        cursor: pointer;
+    }
 }
 
 .footer_tm {
