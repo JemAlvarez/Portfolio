@@ -7,9 +7,31 @@ const ContactPage = () => (
         <h1 className="contact__heading">Heading</h1>
         <h3 className="contact__subheading">Subheading</h3>
         <form action="POST" name="contact" className="contact__form" data-netlify="true">
-            <input autoComplete="new-password" type="text" className="contact__input" placeholder="John Doe" required />
-            <input autoComplete="new-password" type="email" className="contact__input" placeholder="johndoe@email.com" required />
-            <textarea autoComplete="new-password" maxLength="120" rows="4" placeholder="How can we work together?" required></textarea>
+            <input
+                name="name"
+                autoComplete="new-password"
+                type="text"
+                className="contact__input" p
+                laceholder="John Doe"
+                required
+            />
+            <input
+                name="email"
+                autoComplete="new-password"
+                type="email"
+                className="contact__input"
+                placeholder="johndoe@email.com"
+                required
+            />
+            <textarea
+                name="request"
+                autoComplete="new-password"
+                maxLength="120"
+                rows="4"
+                placeholder="How can we work together?"
+                required
+            >
+            </textarea>
             <div className="contact__buttons">
                 <button
                     className="btn btn--location"
@@ -20,6 +42,7 @@ const ContactPage = () => (
                     <MdLocationOn />
                 </button>
                 <button
+                    type="submit"
                     className="btn btn--submit"
                 // onClick={(e) => {
                 //     e.preventDefault()
