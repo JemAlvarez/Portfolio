@@ -1,0 +1,53 @@
+.contact {
+    text-align: center;
+    margin-bottom: $xl-size;
+    
+    @media (min-width: $desktop-breakpoint) {
+        margin-bottom: 0;
+    }
+}
+
+.contact__heading {
+    color: $blue;
+}
+
+.contact__subheading {
+    color: $white;
+}
+
+.contact__form {
+    input, textarea {
+        background: lighten($background, 60%);
+        border: none;
+        color: darken($white, 50%);
+        display: block;
+        margin: $l-size 0;
+        outline: none;
+        padding: $s-size;
+        width: 100%;
+
+        &::placeholder {
+            color: darken($white, 50%);
+        }
+    }
+}
+
+.contact__buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    border: none;
+    font-size: 2.5rem;
+    outline: none;
+    padding: $xs-size $m-size;
+}
+
+.btn--location {
+    background: #1E6F48;
+}
+
+.btn--submit {
+    background: $accent;
+}
