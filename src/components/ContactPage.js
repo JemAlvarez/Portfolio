@@ -6,7 +6,7 @@ const ContactPage = () => (
     <div className="container contact">
         <h1 className="contact__heading">Heading</h1>
         <h3 className="contact__subheading">Subheading</h3>
-        <form method="POST" name="contact" className="contact__form" data-netlify="true">
+        <form name="contact" className="contact__form" action="https://formsubmit.io/send/9f3d1974-740f-46c3-b3cb-376ce3e42feb">
             <input
                 name="name"
                 autoComplete="new-password"
