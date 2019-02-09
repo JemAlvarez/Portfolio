@@ -6,13 +6,13 @@ const ContactPage = () => (
     <div className="container contact">
         <h1 className="contact__heading">Heading</h1>
         <h3 className="contact__subheading">Subheading</h3>
-        <form action="POST" name="contact" className="contact__form" data-netlify="true">
+        <form method="POST" name="contact" className="contact__form" data-netlify="true">
             <input
                 name="name"
                 autoComplete="new-password"
                 type="text"
-                className="contact__input" p
-                laceholder="John Doe"
+                className="contact__input"
+                placeholder="John Doe"
                 required
             />
             <input
@@ -24,7 +24,7 @@ const ContactPage = () => (
                 required
             />
             <textarea
-                name="request"
+                name="message"
                 autoComplete="new-password"
                 maxLength="120"
                 rows="4"
@@ -44,9 +44,6 @@ const ContactPage = () => (
                 <button
                     type="submit"
                     className="btn btn--submit"
-                // onClick={(e) => {
-                //     e.preventDefault()
-                // }}
                 >
                     <FiSend />
                 </button>
