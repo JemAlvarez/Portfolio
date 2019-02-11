@@ -46,8 +46,16 @@
 
 .btn--location {
     background: #1E6F48;
+
+    &:hover {
+        background: darken(#1E6F48, 10%)
+    }
 }
 
 .btn--submit {
     background: $accent;
+
+    &:hover {
+        background: darken($accent, 10%)
+    }
 }
