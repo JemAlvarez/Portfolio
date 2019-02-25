@@ -8,7 +8,6 @@ class Navbar extends React.Component {
     }
     componentDidMount() {
         window.addEventListener('resize', () => {
-            console.log(window.scrollY)
             if (window.innerWidth >= 720) {
                 this.setState(() => ({ open: false }))
             }
@@ -59,7 +58,7 @@ class Navbar extends React.Component {
                                 <NavLink onClick={() => { this.closeMenu() }} to="/" activeClassName="navbar__link-active" className="navbar__link" exact={true}>home</NavLink>
                                 <NavLink onClick={() => { this.closeMenu() }} to="/contact" activeClassName="navbar__link-active" className="navbar__link">contact</NavLink>
                                 <NavLink onClick={() => { this.closeMenu() }} to="/projects" activeClassName="navbar__link-active" className="navbar__link">projects</NavLink>
-                                <NavLink onClick={() => { this.closeMenu() }} to="/resume" activeClassName="navbar__link-active" className="navbar__link">resume</NavLink>
+                                <NavLink onClick={() => { this.closeMenu() }} to="/images/test.pdf" target="_blank" activeClassName="navbar__link-active" className="navbar__link">resume</NavLink>
                             </div>
                             <span
                                 className="navbar__icon"

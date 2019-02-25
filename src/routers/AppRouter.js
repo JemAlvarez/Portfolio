@@ -6,7 +6,6 @@ import Footer from '../components/Footer'
 import MainPage from '../components/MainPage'
 import Navbar from '../components/Navbar'
 import ProjectsPage from '../components/ProjectsPage'
-import ResumePage from '../components/ResumePage'
 
 export const history = createHistory();
 
@@ -18,7 +17,6 @@ const AppRouter = () => (
         <Route path="/" component={MainPage} exact={true} />
         <Route path="/contact" component={ContactPage} />
         <Route path="/projects" component={ProjectsPage} />
-        <Route path="/resume" component={ResumePage} />
       </Switch>
       <Footer />
     </div>
