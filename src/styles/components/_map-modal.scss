@@ -43,5 +43,7 @@
 }
 
 .ReactModal__Body--open {
-    overflow-y: hidden;
+    #app {
+        overflow-y: hidden;
+    }
 }
