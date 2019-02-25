@@ -41,3 +41,7 @@
         color: $accent;
     }
 }
+
+.ReactModal__Body--open {
+    overflow-y: hidden;
+}

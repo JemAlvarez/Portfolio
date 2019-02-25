@@ -20,15 +20,18 @@ class Navbar extends React.Component {
             }
         })
     }
-    closeMenu() {
-        this.setState(() => ({ open: false }))
-    }
     toggleIconClass() {
         if (this.state.open === true) {
             document.querySelector('.navbar__icon').classList.add('navbar__icon-on')
         } else {
             document.querySelector('.navbar__icon').classList.remove('navbar__icon-on')
         }
+    }
+    closeMenu() {
+        this.setState(() => ({ open: false }))
+        setTimeout(() => {
+            this.toggleIconClass()
+        }, 10);
     }
     renderNavMenu() {
         if (this.state.open === true) {
