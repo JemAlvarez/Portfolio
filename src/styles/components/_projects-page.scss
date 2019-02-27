@@ -1,0 +1,11 @@
+.projects {
+    display: grid;
+    grid-gap: $m-size;
+    grid-template-columns: repeat(1, 1fr);
+    margin-bottom: $xl-size;
+    margin-top: $xl-size;
+
+    @media (min-width: $desktop-breakpoint) {
+        grid-template-columns: repeat(3, 1fr)
+    }
+}

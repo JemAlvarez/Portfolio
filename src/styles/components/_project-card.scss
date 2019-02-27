@@ -1,0 +1,69 @@
+.card{
+    background: darken($background, 3%);
+    cursor: pointer;
+    padding: $m-size;
+
+    &:hover {
+        .card__img {
+            transform: scale(1.05);
+        }
+
+        .card__date {
+            display: block;
+        }
+    }
+}
+
+.card__container {
+    cursor: pointer;
+    position: relative;
+}
+
+.card__img {
+    height: auto;
+    transition: all 0.3s ease;
+    width: 100%;
+}
+
+.card__date{
+    background: rgba($white, 0.4);
+    bottom: 7px;
+    display: none;
+    left: 0;
+    margin: 0;
+    padding: 0 $m-size;
+    position: absolute;
+    transition: all 1s ease;
+    width: 100%;
+}
+
+.card__name{
+    color: $blue;
+    font-size: $font-size-large;
+    text-align: center;
+}
+
+
+.card__description{
+    color: lighten($blue, 10%);
+    font-size: $font-size-small;
+}
+
+.card__btns {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 $l-size;
+}
+
+.card__btn {
+    color: $white;
+    text-decoration: none;
+}
+
+.card__btn--code:hover {
+    color: $accent;
+}
+
+.card__btn--live:hover {
+    color: $blue;
+}
