@@ -26,9 +26,11 @@
 }
 
 .card__date{
-    background: rgba($white, 0.4);
+    background: rgba($white, 0.5);
     bottom: 7px;
+    color: black;
     display: none;
+    font-size: $font-size-small;
     left: 0;
     margin: 0;
     padding: 0 $m-size;

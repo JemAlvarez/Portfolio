@@ -3,32 +3,32 @@ const projects = [
         name: "Name 1",
         date: "2018",
         description: "Test 1",
-        img: "img.jpg"
+        img: "a.png"
     }, {
         name: "Name 2",
         date: "2018",
         description: "Test 2",
-        img: "img.jpg"
+        img: "a.png"
     }, {
         name: "Name 3",
         date: "2018",
         description: "Test 3",
-        img: "img.jpg"
+        img: "a.png"
     }, {
         name: "Name 1",
         date: "2018",
         description: "Test 1",
-        img: "img.jpg"
+        img: "a.png"
     }, {
         name: "Name 2",
         date: "2018",
         description: "Test 2",
-        img: "img.jpg"
+        img: "a.png"
     }, {
         name: "Name 3",
         date: "2018",
         description: "Test 3",
-        img: "img.jpg"
+        img: "a.png"
     }
 ]
 
