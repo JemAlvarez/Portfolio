@@ -23,7 +23,7 @@ class MainPage extends React.Component {
                         <p>Something about me blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah. Something about me blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah </p>
                     </div>
                     <div className="me__container">
-                        <div className="me__social-link"><a href="https://google.com" target="_blank"><FaGithub /></a></div>
+                        <div className="me__social-link"><a href="https://github.com/JemAlvarez" target="_blank"><FaGithub /></a></div>
                         <div className="me__social-link"><a href="https://google.com" target="_blank"><FaFacebookF /></a></div>
                         <div className="me__social-link"><a href="https://google.com" target="_blank"><FaInstagram /></a></div>
                         <div className="me__social-link"><a href="https://google.com" target="_blank"><FaTwitter /></a></div>
