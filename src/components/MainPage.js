@@ -13,7 +13,7 @@ class MainPage extends React.Component {
                 <div className="hero">
                     <div className="hero__subcontainer">
                         <h1 className="hero__title">Hi I'm Jem, I do <span className="typed"></span></h1>
-                        <img className="hero__image" src={'/images/img.jpg'} alt="image" />
+                        <img className="hero__image" src={'/images/img.png'} alt="image" />
                     </div>
                     <Link className="hero__link" to="/contact">Contact</Link>
                 </div>
