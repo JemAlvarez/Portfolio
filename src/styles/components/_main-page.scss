@@ -126,14 +126,14 @@
     }
 
     &:nth-of-type(3) {
-        background: #E74C3C;
+        background: #e1306c;
         height: 40px;
         left: 60%;
         top: 10%;
         width: 40px;
 
         &:hover {
-            background: darken(#E74C3C ,10%);
+            background: darken(#e1306c ,10%);
             transform: scale(1.1);
         }
     }
