@@ -1,5 +1,12 @@
 const projects = [
     {
+        name: "Weather App",
+        date: "2019",
+        description: "Get forecast for any location",
+        img: 'weather.png',
+        live: 'https://ja-weather-app.herokuapp.com/',
+        code: 'https://github.com/JemAlvarez/weather-app'
+    },{
         name: "Movie App",
         date: "2018-2019",
         description: "Information about movies/shows/actors from movie database.",
