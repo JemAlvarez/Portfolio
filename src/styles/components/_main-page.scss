@@ -176,6 +176,21 @@
     }
 }
 
+.featured-projects {
+    border-top: 1px solid $accent;
+    text-align: center;
+}
+
+.featured-projects__container {
+    display: grid;
+    grid-gap: $m-size;
+    grid-template-columns: repeat(1, 1fr);
+
+    @media (min-width: $desktop-breakpoint) {
+        grid-template-columns: repeat(2, 1fr)
+    }
+}
+
 .skills {
     border-top: 1px solid $accent;
     display: grid;
@@ -190,10 +205,6 @@
 
 .skills__container {
     margin-top: $m-size;
-    
-    &:not(:last-child) {
-        // border-right: 1px solid $accent;
-    }
 }
 
 .skills__list {

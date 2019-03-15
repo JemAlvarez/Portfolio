@@ -33,6 +33,7 @@
     "react-pdf": "^4.0.3",
     "react-router-dom": "^4.3.1",
     "react-scroll": "^1.7.10",
+    "rellax": "^1.8.0",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1",
     "typed.js": "^2.0.10",
