@@ -42,6 +42,6 @@
     }
 }
 
-.ReactModal__Body--open, #app {
-    overflow-y: hidden;
+.ReactModal__Body--open, body, #app, html {
+    overflow: hidden;
 }
