@@ -19,6 +19,7 @@ class Map extends React.Component {
             <Modal
                 isOpen={this.props.isOpen}
                 onRequestClose={this.props.onRequestClose}
+                onAfterOpen={this.props.onAfterOpen}
                 closeTimeoutMS={200}
                 className="modal"
             >
@@ -32,7 +33,7 @@ class Map extends React.Component {
                         <AnyReactComponent
                             lat={this.props.center.lat}
                             lng={this.props.center.lng}
-                            text={'Kreyser Avrora'}
+                            text={'Jem'}
                         />
                     </GoogleMapReact>
                 </div>

@@ -9,6 +9,10 @@ class ContactPage extends React.Component {
     }
     onRequestClose = () => {
         this.setState(() => ({ isOpen: false }))
+        document.querySelector('#app').setAttribute("style", "position: static")
+    }
+    onAfterOpen = () => {
+        document.querySelector('#app').setAttribute("style", "position: fixed")
     }
     render() {
         return (
@@ -59,7 +63,11 @@ class ContactPage extends React.Component {
                         </button>
                     </div>
                 </form>
-                <MapModal isOpen={this.state.isOpen} onRequestClose={this.onRequestClose} />
+                <MapModal 
+                    isOpen={this.state.isOpen} 
+                    onAfterOpen={this.onAfterOpen} 
+                    onRequestClose={this.onRequestClose} 
+                />
             </div>
         )
     }
