@@ -2,11 +2,18 @@ const projects = [
     {
         name: "Weather App",
         date: "2019",
-        description: "Get forecast for any location",
+        description: "Get forecast for any location (Front-end)",
         img: 'weather.png',
-        live: 'https://ja-weather-app.herokuapp.com/',
-        code: 'https://github.com/JemAlvarez/weather-app'
-    },{
+        live: 'https://weather.jemalvarez.com/',
+        code: 'https://github.com/JemAlvarez/weather-app-react'
+    }, {
+        name: "Weather API",
+        date: "2019",
+        description: "Get forecast for any location (Back-end)",
+        img: 'weather-api.png',
+        live: 'https://ja-forecast-api.herokuapp.com/weather?address=us',
+        code: 'https://github.com/JemAlvarez/forecast-api'
+    }, {
         name: "Movie App",
         date: "2018-2019",
         description: "Information about movies/shows/actors from movie database.",
