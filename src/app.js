@@ -9,5 +9,3 @@ const app = (
 );
 
 ReactDOM.render(app, document.getElementById('app'));
-
-console.log(process.env.MAP_API_KEY)
