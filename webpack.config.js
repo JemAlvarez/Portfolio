@@ -1,6 +1,7 @@
 const path = require('path')
 const webpack = require('webpack')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
+const Dotenv = require('dotenv-webpack')
 
 module.exports = (env) => {
     const isProduction = env === 'production'
@@ -37,6 +38,7 @@ module.exports = (env) => {
         },
         plugins: [
             CSSExtract,
+            new Dotenv()
         ],
         devtool: isProduction ? 'source-map' : 'cheap-module-eval-source-map',
         devServer: {

@@ -25,7 +25,7 @@ class Map extends React.Component {
             >
                 <div className="modal__body" style={{ height: '100%', width: '100%' }}>
                     <GoogleMapReact
-                        bootstrapURLKeys={{ key: 'AIzaSyDH-cRglkSxWC0YPIyNNsU6uwxEn7vgLWI' }}
+                        bootstrapURLKeys={{ key: process.env.MAP_API_KEY }}
                         defaultCenter={this.props.center}
                         defaultZoom={this.props.zoom}
                         options={mapOptions}
