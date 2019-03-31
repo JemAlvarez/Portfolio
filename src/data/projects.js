@@ -1,5 +1,12 @@
 const projects = [
     {
+        name: "Discord Bot",
+        date: "2019",
+        description: "Discord bot using discord.js",
+        img: 'discord-bot.png',
+        live: '',
+        code: 'https://github.com/JemAlvarez/stast-discord-bot'
+    }, {
         name: "Weather App",
         date: "2019",
         description: "Get forecast for any location (Front-end)",
