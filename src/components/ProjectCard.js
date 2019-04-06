@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaEye, FaCode } from 'react-icons/fa'
 
 const ProjectCard = ({ prjt }) => (
     <div className="card">
@@ -9,8 +10,8 @@ const ProjectCard = ({ prjt }) => (
         <h1 className="card__name">{prjt.name}</h1>
         <p className="card__description">{prjt.description}</p>
         <div className="card__btns">
-            <a href={`${prjt.code}`} target="_blank" className="card__btn card__btn--code">code</a>
-            <a href={`${prjt.live}`} target="_blank" className="card__btn card__btn--live">live</a>
+            <a href={`${prjt.code}`} target="_blank" className="card__btn card__btn--code"><FaCode /></a>
+            <a href={`${prjt.live}`} target="_blank" className="card__btn card__btn--live"><FaEye /></a>
         </div>
     </div>
 )

@@ -16,4 +16,21 @@ $m-size: 1.6rem;
 $l-size: 3.2rem;
 $xl-size: 4.8rem;
 
+// Misc
+$transition: 0.3s all ease;
+
+// Mixin
+@mixin sm-link($color, $font, $height, $left, $top, $width, $darken) {
+    background: $color;
+        font-size: $font;
+        height: $height;
+        left: $left;
+        top: $top;
+        width: $width;
+
+        &:hover {
+            background: darken($color, $darken);
+        }
+}
+
 $desktop-breakpoint: 45rem;

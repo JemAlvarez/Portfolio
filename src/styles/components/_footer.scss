@@ -12,6 +12,14 @@
 
 .footer__scrollup {
     margin: $s-size 0;
+    
+    svg {
+        transition: $transition;
+        
+        &:hover {
+            transform: scale(1.4);
+        }
+    }
 
     &:hover {
         color: $accent;
@@ -33,13 +41,19 @@
 
 .footer_social-icon {
     margin: 0;
+    transition: $transition;
 
     a {
         color: $white;
+        font-size: 2.2rem;
         text-decoration: none;
 
         &:hover {
             color: $accent;
         }
+    }
+
+    &:hover {
+        transform: scale(1.2);
     }
 }

@@ -123,6 +123,7 @@ nav {
 
 .navbar__logo {
     height: 30px;
+    transition: $transition;
     width: 30px;
 
     & a {
@@ -133,6 +134,10 @@ nav {
         display: block;
         height: 100%;
         width: 100%;
+    }
+
+    &:hover {
+        transform: scale(1.2);
     }
 }
 

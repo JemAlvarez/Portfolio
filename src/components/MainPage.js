@@ -26,43 +26,28 @@ class MainPage extends React.Component {
                 <div className="me-section">
                     <div className="me__container right-border bottom-border">
                         <h3 className="main__heading">About Me</h3>
-                        <p>Something about me blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah. Something about me blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah </p>
+                        <p>Hi, I'm Jem. I'm an 18 y/o self taught web developer. I specialize in front-end but I can also do back-end, learning to become a full-stack developer. Always trying to learn new technologies. Love pizza :)</p>
                     </div>
                     <div className="me__container">
-                        <div 
-                            className="me__social-link rellax" 
-                            data-rellax-speed="0.2"
-                        >
-                            <a href="https://github.com/JemAlvarez" target="_blank"><FaGithub /></a>
-                        </div>
-                        <div 
-                            className="me__social-link rellax" 
-                            data-rellax-speed="0.2"
-                        >
-                            <a href="https://google.com" target="_blank"><FaFacebookF /></a>
-                        </div>
-                        <div 
-                            className="me__social-link rellax" 
-                            data-rellax-speed="0.2"
-                        >
-                            <a href="https://google.com" target="_blank"><FaInstagram /></a>
-                        </div>
-                        <div 
-                            className="me__social-link rellax" 
-                            data-rellax-speed="0.2"
-                        >
-                            <a href="https://google.com" target="_blank"><FaTwitter /></a>
-                        </div>
-                        <div 
-                            className="me__social-link rellax" 
-                            data-rellax-speed="0.2"
-                        >
-                            <a href="https://google.com" target="_blank"><FaLinkedinIn /></a>
-                        </div>
+                        <a href="https://github.com/JemAlvarez" target="_blank" className="me__social-link">
+                            <FaGithub />
+                        </a>
+                        <a href="https://facebook.com" target="_blank" className="me__social-link">
+                            <FaFacebookF />
+                        </a>
+                        <a href="https://instagram.com" target="_blank" className="me__social-link">
+                            <FaInstagram />
+                        </a>
+                        <a href="https://twitter.com/official_JemAl" target="_blank" className="me__social-link">
+                            <FaTwitter />
+                        </a>
+                        <a href="https://www.linkedin.com/in/jem-alvarez-046962164/" target="_blank" className="me__social-link">
+                            <FaLinkedinIn />
+                        </a>
                     </div>
                 </div>
                 <div className="featured-projects">
-                    <h3 className="main__heading">Featured Projects</h3>
+                    <h3 className="main__heading">Latest Projects</h3>
                     <div className="featured-projects__container">
                         {projects.map(prjt => (
                             <ProjectCard prjt={prjt} />
@@ -71,27 +56,27 @@ class MainPage extends React.Component {
                 </div>
                 <div className="skills">
                     <div className="skills__container right-border bottom-border">
-                        <h3 className="main__heading">Type of skill</h3>
+                        <h3 className="main__heading">Front-End</h3>
                         <ul className="skills__list">
-                            <li>Item 1</li>
-                            <li>Item 2</li>
-                            <li>Item 3</li>
+                            <li>HTML / CSS</li>
+                            <li>JavaScript</li>
+                            <li>React JS / Redux</li>
                         </ul>
                     </div>
                     <div className="skills__container right-border bottom-border">
-                        <h3 className="main__heading">Type of skill</h3>
+                        <h3 className="main__heading">Back-End</h3>
                         <ul className="skills__list">
-                            <li>Item 4</li>
-                            <li>Item 5</li>
-                            <li>Item 6</li>
+                            <li>Node JS</li>
+                            <li>Express JS</li>
+                            <li>Databases</li>
                         </ul>
                     </div>
                     <div className="skills__container">
-                        <h3 className="main__heading">Type of skill</h3>
+                        <h3 className="main__heading">Misc</h3>
                         <ul className="skills__list">
-                            <li>Item 7</li>
-                            <li>Item 8</li>
-                            <li>Item 9</li>
+                            <li>Design</li>
+                            <li>Git</li>
+                            <li>Webpack</li>
                         </ul>
                     </div>
                 </div>
@@ -106,7 +91,9 @@ const typedOptions = {
         "SASS",
         "JavaScript",
         "React JS",
-        "Node JS"
+        "Node JS",
+        "Express JS",
+        "MongoDB"
     ],
     cursorChar: '|',
     shuffle: true,

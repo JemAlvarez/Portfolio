@@ -64,10 +64,11 @@
     text-decoration: none;
     text-transform: uppercase;
     transform: translateX(-50%);
-    transition: all ease 0.3s;
+    transition: $transition;
 
     &:hover {
         background: darken($accent, 15%);
+        border-radius: $s-size;
         transform: scale(1.02) translateX(-50%);
     }
 }
@@ -83,7 +84,7 @@
 
 .me__container {
     min-height: 250px;
-    padding: $m-size 0;
+    padding: $m-size;
     position: relative;
     text-align: center;
 }
@@ -95,84 +96,39 @@
     display: grid;
     justify-items: center;
     position: absolute;
-    transition: 0.3s all ease;
+    transition: $transition;
 
     &:nth-of-type(1) {
-        background: #2C3E50;
-        font-size: 5rem;
-        height: 110px;
-        left: 40%;
-        top: 30%;
-        width: 110px;
-
-        &:hover {
-            background: darken(#2C3E50 ,10%);
-            transform: scale(1.1);
-        }
+        @include sm-link(#2C3E50, 5rem, 110px, 40%, 30%, 110px, 10%)
     }
 
     &:nth-of-type(2) {
-        background: #3498DB;
-        font-size: 3rem;
-        height: 70px;
-        left: 20%;
-        top: 10%;
-        width: 70px;
-
-        &:hover {
-            background: darken(#3498DB ,10%);
-            transform: scale(1.1);
-        }
+        @include sm-link(#3498DB, 3rem, 70px, 20%, 10%, 70px, 30%)
     }
 
     &:nth-of-type(3) {
-        background: #e1306c;
-        height: 40px;
-        left: 60%;
-        top: 10%;
-        width: 40px;
-
-        &:hover {
-            background: darken(#e1306c ,10%);
-            transform: scale(1.1);
-        }
+        @include sm-link(#e1306c, 2rem, 40px, 60%, 10%, 40px, 30%)
     }
 
     &:nth-of-type(4) {
-        background: #16A085;
-        font-size: 2rem;
-        height: 50px;
-        left: 80%;
-        top: 50%;
-        width: 50px;
-
-        &:hover {
-            background: darken(#16A085 ,10%);
-            transform: scale(1.1);
-        }
+        @include sm-link(#16A085, 2rem, 50px, 80%, 50%, 50px, 20%)
     }
 
     &:nth-of-type(5) {
-        background: #16A085;
-        font-size: 3.5rem;
-        height: 80px;
-        left: 5%;
-        top: 55%;
-        width: 80px;
-
-        &:hover {
-            background: darken(#16A085 ,10%);
-            transform: scale(1.1);
-        }
+        @include sm-link(#0D3F4C, 3.5rem, 80px, 5%, 55%, 80px, 5%)
     }
 
-    a {
+    svg {
         align-items: center;
         color: $white;
         display: grid;
         justify-items: center;
         margin: 0;
         text-decoration: none;
+    }
+
+    &:hover {
+        transform: scale(1.2)
     }
 }
 

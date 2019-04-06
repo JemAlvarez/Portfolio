@@ -21,7 +21,7 @@
 
 .card__img {
     height: auto;
-    transition: all 0.3s ease;
+    transition: $transition;
     width: 100%;
 }
 
@@ -35,7 +35,7 @@
     margin: 0;
     padding: 0 $m-size;
     position: absolute;
-    transition: all 1s ease;
+    transition: $transition;
     width: 100%;
 }
 
@@ -59,8 +59,14 @@
 
 .card__btn {
     color: $white;
+    font-size: $font-size-large;
     text-decoration: none;
     text-transform: uppercase;
+    transition: $transition;
+
+    &:hover {
+        transform: scale(1.5);
+    }
 }
 
 .card__btn--code:hover {

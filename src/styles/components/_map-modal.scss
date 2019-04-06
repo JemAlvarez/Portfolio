@@ -36,8 +36,10 @@
     position: absolute;
     right: -8%;
     top: -4%;
+    transition: $transition;
 
     &:hover {
         color: $accent;
+        transform: scale(1.5);
     }
 }

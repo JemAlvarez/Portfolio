@@ -24,7 +24,12 @@
         margin: $l-size 0;
         outline: none;
         padding: $s-size;
+        transition: $transition;
         width: 100%;
+
+        &:focus {
+            border-radius: $m-size;
+        }
 
         &::placeholder {
             color: darken($white, 50%);
@@ -42,6 +47,16 @@
     font-size: 2.5rem;
     outline: none;
     padding: $xs-size $m-size;
+    transition: $transition;
+
+    &:hover {
+        border-radius: $s-size;
+
+        svg {
+            transition: $transition;
+            transform: scale(1.2);
+        }
+    }
 }
 
 .btn--location {

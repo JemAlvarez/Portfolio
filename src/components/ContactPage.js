@@ -17,8 +17,8 @@ class ContactPage extends React.Component {
     render() {
         return (
             <div className="container contact">
-                <h1 className="contact__heading">Heading</h1>
-                <h3 className="contact__subheading">Subheading</h3>
+                <h1 className="contact__heading">Contact</h1>
+                <h3 className="contact__subheading">Let's work together, send your ideas :)</h3>
                 <form name="contact" className="contact__form" action="https://formsubmit.io/send/9f3d1974-740f-46c3-b3cb-376ce3e42feb">
                     <input
                         name="name"
@@ -63,10 +63,10 @@ class ContactPage extends React.Component {
                         </button>
                     </div>
                 </form>
-                <MapModal 
-                    isOpen={this.state.isOpen} 
-                    onAfterOpen={this.onAfterOpen} 
-                    onRequestClose={this.onRequestClose} 
+                <MapModal
+                    isOpen={this.state.isOpen}
+                    onAfterOpen={this.onAfterOpen}
+                    onRequestClose={this.onRequestClose}
                 />
             </div>
         )

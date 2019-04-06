@@ -13,7 +13,7 @@ const Footer = () => (
             >
                 <FaChevronUp />
             </Link>
-            <h3 className="footer_tm">Jem Alvarez 2019</h3>
+            <h3 className="footer_tm">Jem Alvarez - 2019</h3>
             <div className="footer_social-wrapper">
                 <p className="footer_social-icon">
                     <a href="https://www.facebook.com" target="_blank"><FaFacebookF /></a>
