@@ -1,5 +1,12 @@
 const projects = [
     {
+        name: "Login Page",
+        date: "2019",
+        description: "Login page with ReactJS and ExpressJS/MongoDB",
+        img: 'login-page.png',
+        live: 'https://login-page.jemalvarez.com/',
+        code: 'https://github.com/JemAlvarez/login-page'
+    }, {
         name: "Discord Bot",
         date: "2019",
         description: "Discord bot using discord.js",
