@@ -1,5 +1,26 @@
 const projects = [
     {
+        name: "League of Legends App",
+        date: "2019",
+        description: "League of Legends stats app",
+        img: 'lol-app.png',
+        live: 'https://lol.jemalvarez.com/',
+        code: 'https://github.com/JemAlvarez/lol-app-react'
+    }, {
+        name: "League of Legends API",
+        date: "2019",
+        description: "Custom league of legends backend api",
+        img: 'lol-api.png',
+        live: 'https://ja-lol-app.herokuapp.com/',
+        code: 'https://github.com/JemAlvarez/lol-app'
+    }, {
+        name: "Chat App",
+        date: "2019",
+        description: "Chat app with rooms",
+        img: 'chat-app.png',
+        live: 'https://ja-chat-app.herokuapp.com/',
+        code: 'https://github.com/JemAlvarez/chat-app'
+    }, {
         name: "Login Page",
         date: "2019",
         description: "Login page with ReactJS and ExpressJS/MongoDB",
