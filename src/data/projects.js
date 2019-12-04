@@ -14,6 +14,20 @@ const projects = [
         live: '',
         code: 'https://github.com/JemAlvarez/PongGame'
     }, {
+        name: "Space Invaders Game",
+        date: "2019",
+        description: "Space invaders game variant, made in unity",
+        img: 'space-invaders.png',
+        live: '',
+        code: 'https://github.com/JemAlvarez/Space-Invaders'
+    }, {
+        name: "Plants vs Zombies",
+        date: "2019",
+        description: "Plants vz Zombie game clone, made in unity",
+        img: 'pvz.png',
+        live: '',
+        code: 'https://github.com/JemAlvarez/PVZ-Clone'
+    }, {
         name: "Block Breaker Game",
         date: "2019",
         description: "Block breaking game, made in unity",
