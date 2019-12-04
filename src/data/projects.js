@@ -7,6 +7,13 @@ const projects = [
         live: 'https://clock.jemalvarez.com/',
         code: 'https://github.com/JemAlvarez/JS-Analog-Clock'
     }, {
+        name: "Jungle Escape",
+        date: "2019",
+        description: "Simple escape platformer game, made in unity",
+        img: 'jungle-escape.png',
+        live: '',
+        code: 'https://github.com/JemAlvarez/Jungle-Escape'
+    },{
         name: "Pong Game",
         date: "2019",
         description: "Atari pong game clone, made in unity",
@@ -34,6 +41,13 @@ const projects = [
         img: 'block-breaker.png',
         live: '',
         code: 'https://github.com/JemAlvarez/block-breaker-unity'
+    }, {
+        name: "Recipe App API",
+        date: "2019",
+        description: "Backend api for a recipes app",
+        img: 'recipes.png',
+        live: '',
+        code: 'https://github.com/JemAlvarez/recipes-app-api'
     }, {
         name: "League of Legends App",
         date: "2019",
