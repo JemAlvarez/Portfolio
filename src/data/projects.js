@@ -1,5 +1,26 @@
 const projects = [
     {
+        name: "Analog Clock",
+        date: "2019",
+        description: "Simple analog clock",
+        img: 'clock.png',
+        live: 'https://clock.jemalvarez.com/',
+        code: 'https://github.com/JemAlvarez/JS-Analog-Clock'
+    }, {
+        name: "Pong Game",
+        date: "2019",
+        description: "Atari pong game clone, made in unity",
+        img: 'pong.png',
+        live: '',
+        code: 'https://github.com/JemAlvarez/PongGame'
+    }, {
+        name: "Block Breaker Game",
+        date: "2019",
+        description: "Block breaking game, made in unity",
+        img: 'block-breaker.png',
+        live: '',
+        code: 'https://github.com/JemAlvarez/block-breaker-unity'
+    }, {
         name: "League of Legends App",
         date: "2019",
         description: "League of Legends stats app",
