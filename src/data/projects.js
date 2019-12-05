@@ -1,5 +1,12 @@
 const projects = [
     {
+        name: "QuickSort Visualizer",
+        date: "2019",
+        description: "Visualizing quicksort algorithm in javascript.",
+        img: 'qs.png',
+        live: 'https://quicksort.jemalvarez.com/',
+        code: 'https://github.com/JemAlvarez/QuickSort-JS'
+    }, {
         name: "Analog Clock",
         date: "2019",
         description: "Simple analog clock",
