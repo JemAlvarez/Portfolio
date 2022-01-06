@@ -1,5 +1,47 @@
 const projects = [
     {
+        name: "Screenly - Mockup Screenshots",
+        date: "2021",
+        description: "Screenly is a highly customizable screenshot mockup image generator.",
+        img: 'screenly.png',
+        live: 'https://apps.apple.com/us/app/screenly-mockup-screenshots/id1592798429',
+        code: 'https://apps.apple.com/us/app/screenly-mockup-screenshots/id1592798429'
+    },{
+        name: "Pokedex App",
+        date: "2021",
+        description: "Pokdex app for iOS, all pokemon, moves, items information.",
+        img: 'pokedex.png',
+        live: 'https://github.com/JemAlvarez/Pokedex_SwiftUI_iOS15',
+        code: 'https://github.com/JemAlvarez/Pokedex_SwiftUI_iOS15'
+    },{
+        name: "Covid Tracker",
+        date: "2021",
+        description: "Worldwide covid data and specif countries and states.",
+        img: 'covid.png',
+        live: 'https://github.com/JemAlvarez/COVID_Tracker_SwiftUI_iOS14',
+        code: 'https://github.com/JemAlvarez/COVID_Tracker_SwiftUI_iOS14'
+    },{
+        name: "Weather App",
+        date: "2021",
+        description: "Weather app using SwiftUI 2, CoreLocation & CoreData.",
+        img: 'weather-ios.png',
+        live: 'https://github.com/JemAlvarez/WeatherApp_SwiftUI_iOS14',
+        code: 'https://github.com/JemAlvarez/WeatherApp_SwiftUI_iOS14'
+    },{
+        name: "Notes App",
+        date: "2021",
+        description: "Notes app using SwiftUI 2 and CoreData.",
+        img: 'notes-ios.png',
+        live: 'https://github.com/JemAlvarez/NotesApp_SwiftUI_iOS14',
+        code: 'https://github.com/JemAlvarez/NotesApp_SwiftUI_iOS14' 
+    },{
+        name: "Card Memory Game",
+        date: "2021",
+        description: "Classic card memory game with different difficulties inspired by the SuperSmashBros game.",
+        img: 'card-memory-game.png',
+        live: 'https://github.com/JemAlvarez/MemoryCardGame_SwiftUI_iOS14',
+        code: 'https://github.com/JemAlvarez/MemoryCardGame_SwiftUI_iOS14'
+    },{
         name: "QuickSort Visualizer",
         date: "2019",
         description: "Visualizing quicksort algorithm in javascript.",
@@ -16,7 +58,7 @@ const projects = [
     }, {
         name: "Jungle Escape",
         date: "2019",
-        description: "Simple escape platformer game, made in unity",
+        description: "Simple escape platformer game, made in unity.",
         img: 'jungle-escape.png',
         live: '',
         code: 'https://github.com/JemAlvarez/Jungle-Escape'

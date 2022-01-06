@@ -26,17 +26,11 @@ class MainPage extends React.Component {
                 <div className="me-section">
                     <div className="me__container right-border bottom-border">
                         <h3 className="main__heading">About Me</h3>
-                        <p>Hi, I'm Jem. I'm an 18 y/o self taught web developer. I specialize in front-end but I can also do back-end, learning to become a full-stack developer. Always trying to learn new technologies. Love pizza :)</p>
+                        <p>Hello, I'm Jem 👋. I'm an 21 y/o self taught iOS and Web developer, been programming since 16 y/o. I specialize in Swift, SwiftUI (but also do UIKit), I'm an Apple fan boy 😅, but love all tech. Always learning new software engineering technologies. 😃</p>
                     </div>
                     <div className="me__container">
                         <a href="https://github.com/JemAlvarez" target="_blank" className="me__social-link">
                             <FaGithub />
-                        </a>
-                        <a href="https://facebook.com" target="_blank" className="me__social-link">
-                            <FaFacebookF />
-                        </a>
-                        <a href="https://instagram.com" target="_blank" className="me__social-link">
-                            <FaInstagram />
                         </a>
                         <a href="https://twitter.com/official_JemAl" target="_blank" className="me__social-link">
                             <FaTwitter />
@@ -56,27 +50,19 @@ class MainPage extends React.Component {
                 </div>
                 <div className="skills">
                     <div className="skills__container right-border bottom-border">
-                        <h3 className="main__heading">Front-End</h3>
+                        <h3 className="main__heading">Web Dev</h3>
                         <ul className="skills__list">
                             <li>HTML / CSS</li>
                             <li>JavaScript</li>
-                            <li>React JS / Redux</li>
+                            <li>React JS</li>
                         </ul>
                     </div>
-                    <div className="skills__container right-border bottom-border">
-                        <h3 className="main__heading">Back-End</h3>
+                    <div className="skills__container bottom-border">
+                        <h3 className="main__heading">iOS Dev</h3>
                         <ul className="skills__list">
-                            <li>Node JS</li>
-                            <li>Express JS</li>
-                            <li>Databases</li>
-                        </ul>
-                    </div>
-                    <div className="skills__container">
-                        <h3 className="main__heading">Misc</h3>
-                        <ul className="skills__list">
-                            <li>Design</li>
-                            <li>Git</li>
-                            <li>Webpack</li>
+                            <li>Swift</li>
+                            <li>UIKit</li>
+                            <li>SwiftUI</li>
                         </ul>
                     </div>
                 </div>
@@ -87,13 +73,8 @@ class MainPage extends React.Component {
 
 const typedOptions = {
     strings: [
-        "HTML / CSS",
-        "SASS",
-        "JavaScript",
-        "React JS",
-        "Node JS",
-        "Express JS",
-        "MongoDB"
+        "iOS (Swift / SwiftUI)",
+        "Web Dev (JS / React)"
     ],
     cursorChar: '|',
     shuffle: true,

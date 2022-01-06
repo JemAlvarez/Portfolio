@@ -18,7 +18,7 @@ class ContactPage extends React.Component {
         return (
             <div className="container contact">
                 <h1 className="contact__heading">Contact</h1>
-                <h3 className="contact__subheading">Let's work together, send your ideas :)</h3>
+                <p className="contact__subheading">Get in touch with me: contact@jemalvarez.com 😀</p>
                 <form name="contact" className="contact__form" action="https://formsubmit.io/send/9f3d1974-740f-46c3-b3cb-376ce3e42feb">
                     <input
                         name="name"
@@ -41,20 +41,11 @@ class ContactPage extends React.Component {
                         autoComplete="new-password"
                         maxLength="120"
                         rows="4"
-                        placeholder="How can we work together?"
+                        placeholder="What can I do for you? 😀"
                         required
                     >
                     </textarea>
                     <div className="contact__buttons">
-                        <button
-                            className="btn btn--location"
-                            onClick={(e) => {
-                                e.preventDefault()
-                                this.setState(() => ({ isOpen: true }))
-                            }}
-                        >
-                            <MdLocationOn />
-                        </button>
                         <button
                             type="submit"
                             className="btn btn--submit"
@@ -63,11 +54,6 @@ class ContactPage extends React.Component {
                         </button>
                     </div>
                 </form>
-                <MapModal
-                    isOpen={this.state.isOpen}
-                    onAfterOpen={this.onAfterOpen}
-                    onRequestClose={this.onRequestClose}
-                />
             </div>
         )
     }
