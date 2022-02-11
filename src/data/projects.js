@@ -1,5 +1,12 @@
 const projects = [
     {
+        name: "Sketchoo",
+        date: "2022",
+        description: "Drawing app for iOS and iPadOS with PencilKit",
+        img: 'sketchoo.png',
+        live: 'https://apps.apple.com/us/app/sketchoo-drawing-app/id1606842517',
+        code: 'https://github.com/JemAlvarez/Pokedex_SwiftUI_iOS15'
+    },{
         name: "Screenly - Mockup Screenshots",
         date: "2021",
         description: "Screenly is a highly customizable screenshot mockup image generator.",
@@ -41,6 +48,20 @@ const projects = [
         img: 'card-memory-game.png',
         live: 'https://github.com/JemAlvarez/MemoryCardGame_SwiftUI_iOS14',
         code: 'https://github.com/JemAlvarez/MemoryCardGame_SwiftUI_iOS14'
+    },{
+        name: "iOS Movies App",
+        date: "2020",
+        description: "Movie database app for iOS",
+        img: 'movies_ios.png',
+        live: 'https://github.com/JemAlvarez/iOS-Movies',
+        code: 'https://github.com/JemAlvarez/iOS-Movies'
+    },{
+        name: "iOS Calculator",
+        date: "2020",
+        description: "Calculator app for iOS with swipe to delete",
+        img: 'calculator_ios.png',
+        live: 'https://github.com/JemAlvarez/Calculator_iOS13',
+        code: 'https://github.com/JemAlvarez/Calculator_iOS13'
     },{
         name: "QuickSort Visualizer",
         date: "2019",
