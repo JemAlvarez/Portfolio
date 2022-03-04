@@ -1,5 +1,12 @@
 const projects = [
     {
+        name: "Movieholic",
+        date: "2022",
+        description: "Movie database app for MacOS",
+        img: 'movies_macos.png',
+        live: 'https://github.com/JemAlvarez/Movieholic',
+        code: 'https://github.com/JemAlvarez/Movieholic'
+    },{
         name: "Sketchoo",
         date: "2022",
         description: "Drawing app for iOS and iPadOS with PencilKit",
