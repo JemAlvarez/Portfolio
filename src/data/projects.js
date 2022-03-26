@@ -1,5 +1,12 @@
 const projects = [
     {
+        name: "Gyfter - Occasion Reminder",
+        date: "2022",
+        description: "Gyfter helps you rember those special occasions you know you shoudln't forget",
+        img: 'gyfter.png',
+        live: 'https://apps.apple.com/us/app/id1615132443',
+        code: 'https://apps.apple.com/us/app/id1615132443'
+    },{
         name: "Movieholic",
         date: "2022",
         description: "Movie database app for MacOS",
