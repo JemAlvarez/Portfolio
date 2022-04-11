@@ -1,5 +1,12 @@
 const projects = [
     {
+        name: "Onboarder - Swift Package",
+        date: "2022",
+        description: "Onboarder is a Swift Package for creating onboarding screens for SwiftUI or UIKit appps.",
+        img: 'onboarder.png',
+        live: 'https://github.com/JemAlvarez/onboarder',
+        code: 'https://github.com/JemAlvarez/onboarder'
+    },{
         name: "Gyfter - Occasion Reminder",
         date: "2022",
         description: "Gyfter helps you rember those special occasions you know you shoudln't forget",
