@@ -35,7 +35,7 @@ class MainPage extends React.Component {
                         <a href="https://twitter.com/official_JemAl" target="_blank" className="me__social-link">
                             <FaTwitter />
                         </a>
-                        <a href="https://www.linkedin.com/in/jem-alvarez-046962164/" target="_blank" className="me__social-link">
+                        <a href="https://www.linkedin.com/in/jemalvarez/" target="_blank" className="me__social-link">
                             <FaLinkedinIn />
                         </a>
                     </div>
