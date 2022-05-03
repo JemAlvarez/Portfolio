@@ -14,12 +14,12 @@
 }
 
 .hero__subcontainer {
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
+    justify-content: center;
     height: 100%;
 
     @media (min-width: $desktop-breakpoint) {
-        grid-template-columns: 2fr 1.5fr;
+        justify-content: space-between;
     }
 }
 
@@ -46,8 +46,7 @@
     justify-self: right;
     height: auto;
     max-height: 100%;
-    max-width: 100%;
-    width: auto;
+    max-width: 260px;
 
     @media (min-width: $desktop-breakpoint) {
         display: block;
