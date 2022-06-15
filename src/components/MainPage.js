@@ -26,7 +26,7 @@ class MainPage extends React.Component {
                 <div className="me-section">
                     <div className="me__container right-border bottom-border">
                         <h3 className="main__heading">About Me</h3>
-                        <p>Hello, I'm Jem 👋. I'm an 21 y/o self taught iOS and Web developer, been programming since 16 y/o. I specialize in Swift, SwiftUI (but also do UIKit), I'm an Apple fan boy 😅, but love all tech. Always learning new software engineering technologies. 😃</p>
+                        <p>Hello, I'm Jem 👋. I'm an 21 y/o self taught iOS and Web developer. I specialize in Swift, SwiftUI (but also do UIKit), I'm an Apple fan boy 😅, but love all tech. Always learning new software engineering technologies. 😃</p>
                     </div>
                     <div className="me__container">
                         <a href="https://github.com/JemAlvarez" target="_blank" className="me__social-link">
