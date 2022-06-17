@@ -98,23 +98,15 @@
     transition: $transition;
 
     &:nth-of-type(1) {
-        @include sm-link(#2C3E50, 5rem, 110px, 40%, 30%, 110px, 10%)
+        @include sm-link(#2C3E50, 5rem, 110px, 45%, 40%, 110px, 10%)
     }
 
     &:nth-of-type(2) {
-        @include sm-link(#3498DB, 3rem, 70px, 20%, 10%, 70px, 30%)
+        @include sm-link(#3498DB, 3rem, 70px, 25%, 20%, 70px, 30%)
     }
 
     &:nth-of-type(3) {
-        @include sm-link(#e1306c, 2rem, 40px, 60%, 10%, 40px, 30%)
-    }
-
-    &:nth-of-type(4) {
-        @include sm-link(#16A085, 2rem, 50px, 80%, 50%, 50px, 20%)
-    }
-
-    &:nth-of-type(5) {
-        @include sm-link(#0D3F4C, 3.5rem, 80px, 5%, 55%, 80px, 5%)
+        @include sm-link(#e1306c, 2rem, 40px, 65%, 15%, 40px, 30%)
     }
 
     svg {

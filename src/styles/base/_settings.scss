@@ -1,6 +1,6 @@
 // Colors
 $background: #2c2f33;
-$blue: #d24d57;
+$blue: #6fa4b3;
 $dark-blue: #23272a;
 $accent: #22a7f0;
 $white: #ECF0F1;
@@ -22,15 +22,21 @@ $transition: 0.3s all ease;
 // Mixin
 @mixin sm-link($color, $font, $height, $left, $top, $width, $darken) {
     background: $color;
-        font-size: $font;
-        height: $height;
-        left: $left;
-        top: $top;
-        width: $width;
+    font-size: $font;
+    height: $height;
+    left: $left;
+    top: $top;
+    width: $width;
 
-        &:hover {
-            background: darken($color, $darken);
-        }
+    &:hover {
+        background: darken($color, $darken);
+    }
+
+    @media (min-width: $desktop-breakpoint) {
+        font-size: $font*1.5;
+        height: $height*1.5;
+        width: $width*1.5;
+    }
 }
 
 $desktop-breakpoint: 45rem;
