@@ -19,7 +19,7 @@ class ContactPage extends React.Component {
             <div className="container contact">
                 <h1 className="contact__heading">Contact</h1>
                 <p className="contact__subheading">Get in touch with me: contact@jemalvarez.com 😀</p>
-                <form name="contact" className="contact__form" action="https://formsubmit.io/send/9f3d1974-740f-46c3-b3cb-376ce3e42feb">
+                <form name="contact" className="contact__form" action=""> { /* https://formsubmit.io/send/9f3d1974-740f-46c3-b3cb-376ce3e42feb */}
                     <input
                         name="name"
                         autoComplete="new-password"

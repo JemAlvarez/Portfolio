@@ -41,7 +41,7 @@ class Navbar extends React.Component {
             return (
                 <div className="navbar__menu">
                     <NavLink onClick={() => { this.closeMenu() }} to="/" activeClassName="navbar__link-active" className="navbar__link" exact={true}> home </NavLink>
-                    <NavLink onClick={() => { this.closeMenu() }} to="/contact" activeClassName="navbar__link-active" className="navbar__link"> contact </NavLink>
+                    {/* <NavLink onClick={() => { this.closeMenu() }} to="/contact" activeClassName="navbar__link-active" className="navbar__link"> contact </NavLink> */}
                     <NavLink onClick={() => { this.closeMenu() }} to="/projects" activeClassName="navbar__link-active" className="navbar__link"> projects </NavLink>
                     <NavLink onClick={() => { this.closeMenu() }} to="/images/resume.pdf" target="_blank" activeClassName="navbar__link-active" className="navbar__link"> resume </NavLink>
                 </div>
@@ -59,7 +59,7 @@ class Navbar extends React.Component {
                             </div>
                             <div className="navbar__links">
                                 <NavLink onClick={() => { this.closeMenu() }} to="/" activeClassName="navbar__link-active" className="navbar__link" exact={true}>home</NavLink>
-                                <NavLink onClick={() => { this.closeMenu() }} to="/contact" activeClassName="navbar__link-active" className="navbar__link">contact</NavLink>
+                                {/* <NavLink onClick={() => { this.closeMenu() }} to="/contact" activeClassName="navbar__link-active" className="navbar__link">contact</NavLink> */}
                                 <NavLink onClick={() => { this.closeMenu() }} to="/projects" activeClassName="navbar__link-active" className="navbar__link">projects</NavLink>
                                 <NavLink onClick={() => { this.closeMenu() }} to="/images/resume.pdf" target="_blank" activeClassName="navbar__link-active" className="navbar__link">resume</NavLink>
                             </div>

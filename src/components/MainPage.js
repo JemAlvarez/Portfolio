@@ -21,7 +21,7 @@ class MainPage extends React.Component {
                         <h1 className="hero__title">Hi I'm Jem, I do <span className="typed"></span></h1>
                         <img className="hero__image rellax" data-rellax-speed="1.5" src={'/images/img.png'} alt="image" />
                     </div>
-                    <Link className="hero__link" to="/contact">Contact</Link>
+                    {/* <Link className="hero__link" to="/contact">Contact</Link> */}
                 </div>
                 <div className="me-section">
                     <div className="me__container right-border bottom-border">
